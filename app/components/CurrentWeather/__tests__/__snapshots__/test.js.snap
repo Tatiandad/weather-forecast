@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CurrentWeather /> renders <CurrentWeather /> component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CurrentWeather
+    city="London"
+    country="GB"
+    currentWeather={
+      Object {
+        "main": Object {
+          "humidity": 91,
+          "pressure": 1010,
+          "temp": 39.78,
+          "temp_max": 41,
+          "temp_min": 37.94,
+        },
+        "weather": Array [
+          Object {
+            "description": "moderate rain",
+            "icon": "10n",
+            "id": 501,
+            "main": "Rain",
+          },
+          Object {
+            "description": "mist",
+            "icon": "50n",
+            "id": 701,
+            "main": "Mist",
+          },
+        ],
+        "wind": Object {
+          "deg": 20,
+          "gust": 7.7,
+          "speed": 10.29,
+        },
+      }
+    }
+    unit="F"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Current weather in London, GB
+        </h2>,
+        <div
+          className="today-weather"
+        >
+          <h3>
+            <img
+              alt="moderate rain"
+              src="http://openweathermap.org/img/w/10n.png"
+            />
+            40
+            °
+            F
+          </h3>
+          <p>
+            moderate rain
+          </p>
+        </div>,
+      ],
+      "className": "today-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Current weather in London, GB",
+        },
+        "ref": null,
+        "rendered": "Current weather in London, GB",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3>
+              <img
+                alt="moderate rain"
+                src="http://openweathermap.org/img/w/10n.png"
+              />
+              40
+              °
+              F
+            </h3>,
+            <p>
+              moderate rain
+            </p>,
+          ],
+          "className": "today-weather",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="moderate rain"
+                  src="http://openweathermap.org/img/w/10n.png"
+                />,
+                40,
+                "°",
+                "F",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "moderate rain",
+                  "src": "http://openweathermap.org/img/w/10n.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              40,
+              "°",
+              "F",
+            ],
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "moderate rain",
+            },
+            "ref": null,
+            "rendered": "moderate rain",
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Current weather in London, GB
+          </h2>,
+          <div
+            className="today-weather"
+          >
+            <h3>
+              <img
+                alt="moderate rain"
+                src="http://openweathermap.org/img/w/10n.png"
+              />
+              40
+              °
+              F
+            </h3>
+            <p>
+              moderate rain
+            </p>
+          </div>,
+        ],
+        "className": "today-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Current weather in London, GB",
+          },
+          "ref": null,
+          "rendered": "Current weather in London, GB",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3>
+                <img
+                  alt="moderate rain"
+                  src="http://openweathermap.org/img/w/10n.png"
+                />
+                40
+                °
+                F
+              </h3>,
+              <p>
+                moderate rain
+              </p>,
+            ],
+            "className": "today-weather",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="moderate rain"
+                    src="http://openweathermap.org/img/w/10n.png"
+                  />,
+                  40,
+                  "°",
+                  "F",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "moderate rain",
+                    "src": "http://openweathermap.org/img/w/10n.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                40,
+                "°",
+                "F",
+              ],
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "moderate rain",
+              },
+              "ref": null,
+              "rendered": "moderate rain",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

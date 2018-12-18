@@ -1,0 +1,975 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Day /> renders <Day /> component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Day
+    data={
+      Array [
+        Object {
+          "clouds": Object {
+            "all": 92,
+          },
+          "dt": 1544896800,
+          "dt_txt": "2018-12-15 18:00:00",
+          "main": Object {
+            "grnd_level": 1007.09,
+            "humidity": 98,
+            "pressure": 1007.09,
+            "sea_level": 1014.72,
+            "temp": 5.15,
+            "temp_kf": 0.01,
+            "temp_max": 5.15,
+            "temp_min": 5.13,
+          },
+          "rain": Object {
+            "3h": 6.1725,
+          },
+          "sys": Object {
+            "pod": "n",
+          },
+          "weather": Array [
+            Object {
+              "description": "moderate rain",
+              "icon": "10n",
+              "id": 501,
+              "main": "Rain",
+            },
+          ],
+          "wind": Object {
+            "deg": 152.001,
+            "speed": 9.02,
+          },
+        },
+      ]
+    }
+    date="2018-12-17"
+    unit="F"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Collapsible
+        className=""
+        classParentString="Collapsible"
+        contentInnerClassName=""
+        contentOuterClassName=""
+        easing="linear"
+        lazyRender={false}
+        onClose={[Function]}
+        onClosing={[Function]}
+        onOpen={[Function]}
+        onOpening={[Function]}
+        open={false}
+        openedClassName=""
+        overflowWhenOpen="hidden"
+        tabIndex={null}
+        transitionCloseTime={null}
+        transitionTime={400}
+        trigger={
+          <div
+            className="forecast-hourly-header"
+          >
+            <p>
+              <span
+                className="forecast-hourly-date"
+              >
+                Today
+              </span>
+              <img
+                alt="moderate rain"
+                className="forecast-hourly-icon"
+                src="http://openweathermap.org/img/w/10n.png"
+              />
+              <span
+                className="forecast-hourly-temp"
+              >
+                5
+                °
+                F
+              </span>
+            </p>
+            <img
+              alt="trigger-icon"
+              className="icon"
+              src="white-arrow-transparent-png-22.png"
+            />
+          </div>
+        }
+        triggerClassName=""
+        triggerDisabled={false}
+        triggerOpenedClassName=""
+        triggerSibling={null}
+        triggerStyle={
+          Object {
+            "backgroundColor": "#1b2d3a",
+            "color": "#ffffff",
+            "cursor": "pointer",
+          }
+        }
+        triggerTagName="div"
+      >
+        <div>
+          <div
+            className="forecast-hourly-container"
+          >
+            <p>
+              18:00
+            </p>
+            <p>
+              <img
+                alt="moderate rain"
+                className="forecast-hourly-icon"
+                src="http://openweathermap.org/img/w/10n.png"
+              />
+            </p>
+            <p
+              className="forecast-hourly-desc"
+            >
+              moderate rain
+            </p>
+            <p>
+              5
+              °
+              F
+               / 
+              5
+              °
+              F
+            </p>
+            <p>
+              <img
+                alt="SSE"
+                className="forecast-hourly-wind-icon"
+                src="compass.png"
+                style={
+                  Object {
+                    "transform": "rotate(152deg)",
+                  }
+                }
+              />
+              9.02
+              mph
+            </p>
+          </div>
+        </div>
+      </Collapsible>,
+      "className": "forecast-day",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <div>
+          <div
+            className="forecast-hourly-container"
+          >
+            <p>
+              18:00
+            </p>
+            <p>
+              <img
+                alt="moderate rain"
+                className="forecast-hourly-icon"
+                src="http://openweathermap.org/img/w/10n.png"
+              />
+            </p>
+            <p
+              className="forecast-hourly-desc"
+            >
+              moderate rain
+            </p>
+            <p>
+              5
+              °
+              F
+               / 
+              5
+              °
+              F
+            </p>
+            <p>
+              <img
+                alt="SSE"
+                className="forecast-hourly-wind-icon"
+                src="compass.png"
+                style={
+                  Object {
+                    "transform": "rotate(152deg)",
+                  }
+                }
+              />
+              9.02
+              mph
+            </p>
+          </div>
+        </div>,
+        "className": "",
+        "classParentString": "Collapsible",
+        "contentInnerClassName": "",
+        "contentOuterClassName": "",
+        "easing": "linear",
+        "lazyRender": false,
+        "onClose": [Function],
+        "onClosing": [Function],
+        "onOpen": [Function],
+        "onOpening": [Function],
+        "open": false,
+        "openedClassName": "",
+        "overflowWhenOpen": "hidden",
+        "tabIndex": null,
+        "transitionCloseTime": null,
+        "transitionTime": 400,
+        "trigger": <div
+          className="forecast-hourly-header"
+        >
+          <p>
+            <span
+              className="forecast-hourly-date"
+            >
+              Today
+            </span>
+            <img
+              alt="moderate rain"
+              className="forecast-hourly-icon"
+              src="http://openweathermap.org/img/w/10n.png"
+            />
+            <span
+              className="forecast-hourly-temp"
+            >
+              5
+              °
+              F
+            </span>
+          </p>
+          <img
+            alt="trigger-icon"
+            className="icon"
+            src="white-arrow-transparent-png-22.png"
+          />
+        </div>,
+        "triggerClassName": "",
+        "triggerDisabled": false,
+        "triggerOpenedClassName": "",
+        "triggerSibling": null,
+        "triggerStyle": Object {
+          "backgroundColor": "#1b2d3a",
+          "color": "#ffffff",
+          "cursor": "pointer",
+        },
+        "triggerTagName": "div",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="forecast-hourly-container"
+            >
+              <p>
+                18:00
+              </p>
+              <p>
+                <img
+                  alt="moderate rain"
+                  className="forecast-hourly-icon"
+                  src="http://openweathermap.org/img/w/10n.png"
+                />
+              </p>
+              <p
+                className="forecast-hourly-desc"
+              >
+                moderate rain
+              </p>
+              <p>
+                5
+                °
+                F
+                 / 
+                5
+                °
+                F
+              </p>
+              <p>
+                <img
+                  alt="SSE"
+                  className="forecast-hourly-wind-icon"
+                  src="compass.png"
+                  style={
+                    Object {
+                      "transform": "rotate(152deg)",
+                    }
+                  }
+                />
+                9.02
+                mph
+              </p>
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "day-1544896800",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p>
+                  18:00
+                </p>,
+                <p>
+                  <img
+                    alt="moderate rain"
+                    className="forecast-hourly-icon"
+                    src="http://openweathermap.org/img/w/10n.png"
+                  />
+                </p>,
+                <p
+                  className="forecast-hourly-desc"
+                >
+                  moderate rain
+                </p>,
+                <p>
+                  5
+                  °
+                  F
+                   / 
+                  5
+                  °
+                  F
+                </p>,
+                <p>
+                  <img
+                    alt="SSE"
+                    className="forecast-hourly-wind-icon"
+                    src="compass.png"
+                    style={
+                      Object {
+                        "transform": "rotate(152deg)",
+                      }
+                    }
+                  />
+                  9.02
+                  mph
+                </p>,
+              ],
+              "className": "forecast-hourly-container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "18:00",
+                },
+                "ref": null,
+                "rendered": "18:00",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <img
+                    alt="moderate rain"
+                    className="forecast-hourly-icon"
+                    src="http://openweathermap.org/img/w/10n.png"
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "moderate rain",
+                    "className": "forecast-hourly-icon",
+                    "src": "http://openweathermap.org/img/w/10n.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "moderate rain",
+                  "className": "forecast-hourly-desc",
+                },
+                "ref": null,
+                "rendered": "moderate rain",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    5,
+                    "°",
+                    "F",
+                    " / ",
+                    5,
+                    "°",
+                    "F",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  5,
+                  "°",
+                  "F",
+                  " / ",
+                  5,
+                  "°",
+                  "F",
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <img
+                      alt="SSE"
+                      className="forecast-hourly-wind-icon"
+                      src="compass.png"
+                      style={
+                        Object {
+                          "transform": "rotate(152deg)",
+                        }
+                      }
+                    />,
+                    9.02,
+                    "mph",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "SSE",
+                      "className": "forecast-hourly-wind-icon",
+                      "src": "compass.png",
+                      "style": Object {
+                        "transform": "rotate(152deg)",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  9.02,
+                  "mph",
+                ],
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Collapsible
+          className=""
+          classParentString="Collapsible"
+          contentInnerClassName=""
+          contentOuterClassName=""
+          easing="linear"
+          lazyRender={false}
+          onClose={[Function]}
+          onClosing={[Function]}
+          onOpen={[Function]}
+          onOpening={[Function]}
+          open={false}
+          openedClassName=""
+          overflowWhenOpen="hidden"
+          tabIndex={null}
+          transitionCloseTime={null}
+          transitionTime={400}
+          trigger={
+            <div
+              className="forecast-hourly-header"
+            >
+              <p>
+                <span
+                  className="forecast-hourly-date"
+                >
+                  Today
+                </span>
+                <img
+                  alt="moderate rain"
+                  className="forecast-hourly-icon"
+                  src="http://openweathermap.org/img/w/10n.png"
+                />
+                <span
+                  className="forecast-hourly-temp"
+                >
+                  5
+                  °
+                  F
+                </span>
+              </p>
+              <img
+                alt="trigger-icon"
+                className="icon"
+                src="white-arrow-transparent-png-22.png"
+              />
+            </div>
+          }
+          triggerClassName=""
+          triggerDisabled={false}
+          triggerOpenedClassName=""
+          triggerSibling={null}
+          triggerStyle={
+            Object {
+              "backgroundColor": "#1b2d3a",
+              "color": "#ffffff",
+              "cursor": "pointer",
+            }
+          }
+          triggerTagName="div"
+        >
+          <div>
+            <div
+              className="forecast-hourly-container"
+            >
+              <p>
+                18:00
+              </p>
+              <p>
+                <img
+                  alt="moderate rain"
+                  className="forecast-hourly-icon"
+                  src="http://openweathermap.org/img/w/10n.png"
+                />
+              </p>
+              <p
+                className="forecast-hourly-desc"
+              >
+                moderate rain
+              </p>
+              <p>
+                5
+                °
+                F
+                 / 
+                5
+                °
+                F
+              </p>
+              <p>
+                <img
+                  alt="SSE"
+                  className="forecast-hourly-wind-icon"
+                  src="compass.png"
+                  style={
+                    Object {
+                      "transform": "rotate(152deg)",
+                    }
+                  }
+                />
+                9.02
+                mph
+              </p>
+            </div>
+          </div>
+        </Collapsible>,
+        "className": "forecast-day",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <div>
+            <div
+              className="forecast-hourly-container"
+            >
+              <p>
+                18:00
+              </p>
+              <p>
+                <img
+                  alt="moderate rain"
+                  className="forecast-hourly-icon"
+                  src="http://openweathermap.org/img/w/10n.png"
+                />
+              </p>
+              <p
+                className="forecast-hourly-desc"
+              >
+                moderate rain
+              </p>
+              <p>
+                5
+                °
+                F
+                 / 
+                5
+                °
+                F
+              </p>
+              <p>
+                <img
+                  alt="SSE"
+                  className="forecast-hourly-wind-icon"
+                  src="compass.png"
+                  style={
+                    Object {
+                      "transform": "rotate(152deg)",
+                    }
+                  }
+                />
+                9.02
+                mph
+              </p>
+            </div>
+          </div>,
+          "className": "",
+          "classParentString": "Collapsible",
+          "contentInnerClassName": "",
+          "contentOuterClassName": "",
+          "easing": "linear",
+          "lazyRender": false,
+          "onClose": [Function],
+          "onClosing": [Function],
+          "onOpen": [Function],
+          "onOpening": [Function],
+          "open": false,
+          "openedClassName": "",
+          "overflowWhenOpen": "hidden",
+          "tabIndex": null,
+          "transitionCloseTime": null,
+          "transitionTime": 400,
+          "trigger": <div
+            className="forecast-hourly-header"
+          >
+            <p>
+              <span
+                className="forecast-hourly-date"
+              >
+                Today
+              </span>
+              <img
+                alt="moderate rain"
+                className="forecast-hourly-icon"
+                src="http://openweathermap.org/img/w/10n.png"
+              />
+              <span
+                className="forecast-hourly-temp"
+              >
+                5
+                °
+                F
+              </span>
+            </p>
+            <img
+              alt="trigger-icon"
+              className="icon"
+              src="white-arrow-transparent-png-22.png"
+            />
+          </div>,
+          "triggerClassName": "",
+          "triggerDisabled": false,
+          "triggerOpenedClassName": "",
+          "triggerSibling": null,
+          "triggerStyle": Object {
+            "backgroundColor": "#1b2d3a",
+            "color": "#ffffff",
+            "cursor": "pointer",
+          },
+          "triggerTagName": "div",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="forecast-hourly-container"
+              >
+                <p>
+                  18:00
+                </p>
+                <p>
+                  <img
+                    alt="moderate rain"
+                    className="forecast-hourly-icon"
+                    src="http://openweathermap.org/img/w/10n.png"
+                  />
+                </p>
+                <p
+                  className="forecast-hourly-desc"
+                >
+                  moderate rain
+                </p>
+                <p>
+                  5
+                  °
+                  F
+                   / 
+                  5
+                  °
+                  F
+                </p>
+                <p>
+                  <img
+                    alt="SSE"
+                    className="forecast-hourly-wind-icon"
+                    src="compass.png"
+                    style={
+                      Object {
+                        "transform": "rotate(152deg)",
+                      }
+                    }
+                  />
+                  9.02
+                  mph
+                </p>
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "day-1544896800",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p>
+                    18:00
+                  </p>,
+                  <p>
+                    <img
+                      alt="moderate rain"
+                      className="forecast-hourly-icon"
+                      src="http://openweathermap.org/img/w/10n.png"
+                    />
+                  </p>,
+                  <p
+                    className="forecast-hourly-desc"
+                  >
+                    moderate rain
+                  </p>,
+                  <p>
+                    5
+                    °
+                    F
+                     / 
+                    5
+                    °
+                    F
+                  </p>,
+                  <p>
+                    <img
+                      alt="SSE"
+                      className="forecast-hourly-wind-icon"
+                      src="compass.png"
+                      style={
+                        Object {
+                          "transform": "rotate(152deg)",
+                        }
+                      }
+                    />
+                    9.02
+                    mph
+                  </p>,
+                ],
+                "className": "forecast-hourly-container",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "18:00",
+                  },
+                  "ref": null,
+                  "rendered": "18:00",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <img
+                      alt="moderate rain"
+                      className="forecast-hourly-icon"
+                      src="http://openweathermap.org/img/w/10n.png"
+                    />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "moderate rain",
+                      "className": "forecast-hourly-icon",
+                      "src": "http://openweathermap.org/img/w/10n.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "moderate rain",
+                    "className": "forecast-hourly-desc",
+                  },
+                  "ref": null,
+                  "rendered": "moderate rain",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      5,
+                      "°",
+                      "F",
+                      " / ",
+                      5,
+                      "°",
+                      "F",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    5,
+                    "°",
+                    "F",
+                    " / ",
+                    5,
+                    "°",
+                    "F",
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <img
+                        alt="SSE"
+                        className="forecast-hourly-wind-icon"
+                        src="compass.png"
+                        style={
+                          Object {
+                            "transform": "rotate(152deg)",
+                          }
+                        }
+                      />,
+                      9.02,
+                      "mph",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "SSE",
+                        "className": "forecast-hourly-wind-icon",
+                        "src": "compass.png",
+                        "style": Object {
+                          "transform": "rotate(152deg)",
+                        },
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    9.02,
+                    "mph",
+                  ],
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

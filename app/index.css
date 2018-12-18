@@ -1,0 +1,189 @@
+
+body {
+  font-family: -apple-sytem,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+  font-size: 16px;
+  background: #F2F2F2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.container-controls {
+  display: flex;
+  margin: 2rem auto 3rem auto;
+}
+
+input, button {
+  font-size: 16px;
+  margin-right: 0.5rem;
+  padding: 0.25rem;
+  border: 1px solid #d8d8d8;
+  border-radius: 5%;
+}
+
+button {
+  min-width: 3rem;
+  background-color: #1b2d3a;
+  border: 1px solid #1b2d3a;
+  border-radius: 10%;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.forecast-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.forecast-day {
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.Collapsible__contentOuter.is-open {
+  padding: 0.25rem 1rem; 
+}
+
+.Collapsible__trigger {
+  background-color: #1b2d3a;
+  color: #ffffff;
+  padding: 0.25rem 1rem;
+  height: 60px;
+}
+
+.Collapsible__trigger .forecast-hourly-header {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Collapsible__trigger .forecast-hourly-header p {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Collapsible__trigger .icon {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+
+.Collapsible__trigger.is-closed .icon {
+  transform: rotate(90deg);
+}
+
+.Collapsible__trigger.is-open .icon {
+  transform: rotate(-90deg);
+}
+
+.forecast-hourly-wind-icon {
+  vertical-align: text-top;
+  margin-right: 0.25rem;
+}
+
+.forecast-hourly-desc {
+  min-width: 3rem;
+  max-width: 5rem;
+}
+
+.forecast-hourly-icon {
+  width: 40px;
+  height: 40px;
+  vertical-align: text-top;
+}
+
+.forecast-hourly-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.today-container {
+  text-align: left;
+  width: 70%;
+  margin: 0 auto;
+  color: #1b2d3a;
+}
+
+.today-container img {
+  vertical-align: sub;
+  margin: 0 2rem -0.6rem 0;
+}
+
+.today-container p {
+  margin-top: 1rem;
+}
+
+.hide {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+  .Collapsible__trigger .forecast-hourly-header p {
+    width: 60%;
+    text-align: left;
+    padding-left: 0.25rem;
+  }
+}
+
+@media only screen and (max-width: 600px ) {
+  .forecast-hourly-desc {
+    display: none;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  input, button {
+    margin: 0.2rem;
+  }
+
+  .forecast-day {
+    width: 100%;
+    margin: 0.25rem auto;
+    border: none;
+  }
+
+  .Collapsible__trigger {
+    padding: 0.1rem;
+    height: auto;
+  }
+
+  .Collapsible__trigger .forecast-hourly-header {
+    padding: 0.25rem;
+  }
+
+  .Collapsible__trigger .forecast-hourly-header p {
+    width: 80%;
+    text-align: left;
+    padding-left: 0.25rem;
+  }
+
+  .Collapsible__trigger .forecast-hourly-icon,
+  .Collapsible__trigger .forecast-hourly-temp {
+    display: none;
+  }
+
+  .today-container {
+    width: 100%;
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+
